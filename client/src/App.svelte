@@ -154,8 +154,7 @@
 			placeholder="Enter message ..."
 			cols="30" rows="3"
 			bind:value={msg}
-			on:keydown={sendOrPreview}
-			on:input={sendPreview}></textarea>
+			on:keydown={sendOrPreview}></textarea>
 		<div class="quad"></div>
 		<button on:click={sendMsg}>SEND</button>
 	</div>
